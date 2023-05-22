@@ -1,0 +1,57 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: lightcyan;
+}
+
+main {
+  padding: 16px;
+  font-family: 'Wix Madefor Display', sans-serif;
+}
+
+footer {
+  padding: 24px 0px 24px 16px;
+  background-color: coral;
+  font-family: 'Roboto', sans-serif;
+  font-size: x-large;
+  margin-top: 24px;
+}
+
+nav {
+  border-bottom: 3px solid red;
+  padding: 16px 16px 16px 16px;
+  background-color: rgb(230, 210, 137);
+  font-family: 'Roboto', sans-serif;
+  font-size: x-large;
+}
+
+a:link {
+  text-decoration: none;
+  color: blue;
+}
+
+a:visited {
+  text-decoration: none;
+  color: green;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: blue;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.table tbody tr:nth-child(2n+2) {
+  background-color: blanchedalmond;
+}
+
+img {
+  box-shadow: 2px 3px 1px grey;
+}
